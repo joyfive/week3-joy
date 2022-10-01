@@ -1,5 +1,5 @@
 # TRY REACT! FIRST React.app 😎
-▶︎ [Go to Project]"https://joy-reactstate.netlify.app/"
+▶︎ [Go to Project](https://joy-reactstate.netlify.app/)
 
 ## 페이지 소개
 리액트의 기본 기능을 연습하고 state 개념을 다잡기 위한 1page 단위변환기 웹앱
