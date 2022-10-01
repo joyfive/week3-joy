@@ -44,7 +44,7 @@ function KmToMiles() {
   return (
   <div>
   <h3>Killometers to Miles Converter</h3>
-  <div>
+  <div id="inputLine">
   <label htmlFor="km">KM</label>
   <input 
       value={inverted ? amount * 1.60934 : amount}
@@ -55,7 +55,7 @@ function KmToMiles() {
       onChange={onChange}
       />
   </div>
-  <div>
+  <div id="inputLine">
       <label htmlFor="mile">Miles</label>
       <input 
       value={inverted ? amount : amount * 0.621371}
@@ -66,6 +66,7 @@ function KmToMiles() {
       onChange={onChange}
       />
   </div>
+      <hr />
       <button onClick={reset}>Reset</button>
       <button onClick={onInvert}>{inverted ? "Turn back" : "Invert"}</button>
   </div>
@@ -86,7 +87,7 @@ function MinutesToHours() {
   return (
   <div>
   <h3>Minutes to Housrs Converter</h3>
-  <div>
+  <div id="inputLine">
   <label htmlFor="minutes">Minutes</label>
   <input 
       value={inverted ? amount * 60 : amount}
@@ -97,7 +98,7 @@ function MinutesToHours() {
       onChange={onChange}
       />
   </div>
-  <div>
+  <div id="inputLine">
       <label htmlFor="hours">Hours</label>
       <input 
       value={inverted ? amount : Math.round(amount / 60)}
@@ -108,6 +109,7 @@ function MinutesToHours() {
       onChange={onChange}
       />
   </div>
+      <hr />
       <button onClick={reset}>Reset</button>
       <button onClick={onInvert}>{inverted ? "Turn back" : "Invert"}</button>
   </div>
