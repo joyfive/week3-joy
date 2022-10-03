@@ -1,4 +1,5 @@
 # TRY REACT! FIRST React.app 😎
+![](https://velog.velcdn.com/images/joyfive/post/402c3b47-a882-47fb-a6c1-7c92564960c7/image.png)
 ▶︎ [Go to Project](https://joy-reactstate.netlify.app/)
 
 ## 페이지 소개
